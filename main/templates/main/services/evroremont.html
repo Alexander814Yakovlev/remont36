@@ -1,0 +1,94 @@
+{% extends 'main/base.html' %} 
+{% load static %} 
+
+{% block slide %} 
+{% include 'main/slideshow.html' %} 
+{% endblock %} 
+
+{% block content %}
+<div class="entry-content">
+  <div class="item-page">
+    <article class="dd-post">
+      <div class="dd-postcontent clearfix">
+        <div class="dd-article">
+          <h1>Евроремонт квартир в Воронеже</h1>
+          <p>
+            Евроремонт подразумевает под собой создание интерьера соответственно
+            европейским стандартам. Это перепланировка, обустройство
+            водопровода, вентиляции, создание арок, укладка нового пола и так
+            далее. Нужен евроремонт квартир в Воронеже под ключ, включающий
+            дизайнерские решения? Тогда смело обращайтесь в нашу компанию.
+            Опытные мастера знают обо всех тонкостях проведения
+            <a href="{% url 'kosmeticheskij-remont' %}"
+              >косметического </a
+            >и
+            <a href="{% url 'kapitalnyj-remont-kvartir' %}"
+              >капитального ремонта</a
+            >.
+          </p>
+          <ol>
+            <li>Демонтаж старой отделки, покрытий, коммуникаций.</li>
+            <li>
+              Подготовка поверхностей к монтажу и непосредственно сама установка
+              элементов (окна, двери, арки).
+            </li>
+            <li>
+              Укладка напольного покрытия, выравнивание стен, монтаж
+              коммуникаций.
+            </li>
+            <li>
+              Заключительный этап, при котором осуществляется внутренняя отделка
+              помещений, окончательные работы перед сдачей помещения.
+            </li>
+          </ol>
+          <p>
+            <img
+              style="vertical-align: middle"
+              src="{% static 'main/img/1-komnatnaya-kvartira--evroremont--arkadiya-photo-80c2.jpg' %}"
+              alt="Евроремонт квартиры"
+              width="650"
+              height="434"
+            />
+          </p>
+          <p>&nbsp;</p>
+          <p>
+            <img
+              style="vertical-align: middle"
+              src="{% static 'main/img/remont-kvartir-zena-foto-744x419.jpg' %}"
+              alt="Евроремонт квартир в Воронеже"
+              width="650"
+              height="366"
+            />
+          </p>
+          <p>&nbsp;</p>
+          <p>
+            <img
+              style="vertical-align: middle"
+              src="{% static 'main/img/jelitnyj-dizajn-gostinaja.jpg' %}"
+              alt="jelitnyj-dizajn-gostinaja"
+              width="650"
+              height="446"
+            />
+          </p>
+          <p>&nbsp;</p>
+          <p>
+            <img
+              style="vertical-align: middle"
+              src="{% static 'main/img/Nado-li-vyipolnyat-remont-svoey-kvartiryi-metodom---vsenarodnoy-stroyki--.jpg' %}"
+              alt=""
+              width="650"
+              height="488"
+            />
+          </p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+{% endblock %}
+
+{% block nostyle %} 
+{% include 'main/posts.html' %} 
+{% endblock%}

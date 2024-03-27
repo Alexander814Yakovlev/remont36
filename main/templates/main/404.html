@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% extends 'main/base.html' %} 
+
+{% block slide %} 
+{% include'main/slideshow.html' %} 
+{% endblock %} 
+
+{% block content %}
+<div class="entry-content">
+  <div class="item-page">
+    <article class="dd-post">
+      <div class="dd-postcontent clearfix">
+        <div class="dd-article">
+          <h1>Page is not found!</h1>
+          
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+{% endblock %} 
+
+{% block nostyle %} 
+{% include 'main/posts.html' %} 
+{% endblock%} 
+
+{% block map %} 
+{% include 'main/map.html' %} 
+{% endblock %}

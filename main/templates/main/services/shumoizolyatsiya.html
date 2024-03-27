@@ -1,0 +1,53 @@
+{% extends 'main/base.html' %} 
+{% load static %} 
+
+{% block slide %} 
+{% include 'main/slideshow.html' %} 
+{% endblock %} 
+
+{% block content %}
+<div class="entry-content">
+  <div class="item-page">
+    <article class="dd-post">
+      <div class="dd-postcontent clearfix">
+        <div class="dd-article">
+          <h1>Шумоизоляция в Воронеже</h1>
+          <p>
+            Заказывайте <strong>шумоизоляцию квартиры</strong>, офиса, магазина,
+            студии в Воронеже от <a href="/">компании "Ремонт 36"</a>, цены
+            индивидуальны в зависимости от шумоизоляционного и
+            звукоизоляционного материала.
+          </p>
+          <ul>
+            <li>
+              <a
+                href="/shumoizolyatsiya/shumoizolyatsiya-sten"
+                title="Шумоизоляция стен в Воронеже"
+                >Шумоизоляция стен</a
+              >
+            </li>
+            <li>
+              <a
+                href="/shumoizolyatsiya/shumoizolyatsiya-pola"
+                title="Шумоизоляция пола в Воронеже"
+                >Шумоизоляция пола</a
+              >
+            </li>
+            <li>
+              <a
+                href="/shumoizolyatsiya/shumoizolyatsiya-potolka"
+                title="Шумоизоляция потолка в Воронеже"
+                >Шумоизоляция потолка</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+{% endblock %} 
+
+{% block nostyle %} 
+{% include 'main/posts.html' %} 
+{% endblock%}

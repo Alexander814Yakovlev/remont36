@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block style %}
+<link rel="stylesheet" href="{% static 'main/css/phocagallery.css' %}">
+{% endblock %}
+
+{% block slide %}
+{% include 'main/slideshow.html' %}
+{% endblock %}
+
+{% block content %}
+<div class="entry-content">
+  <article class="dd-post">
+    <div class="dd-postcontent clearfix">
+      <div id="phocagallery" class="pg-categories-view pg-csv">
+        <div id="pg-icons"></div>
+        <div class="ph-cb"></div>
+        <div id="pg-msnr-container">
+          <div class="pg-csv-box">
+            <div class="pg-csv-box-img pg-box1">
+              <div class="pg-box2">
+                <div class="pg-box3">
+                  <a href="/nashi-raboti/category/1-elektromontazhnye-raboty">
+                    <img
+                      src="{% static 'main/img/gallery/electro-montagnye.jpg' %}"
+                      alt="Электромонтажные работы"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="pg-csv-name">
+              <a href="/nashi-raboti/category/1-elektromontazhnye-raboty"
+                >Электромо...</a
+              >
+              <span class="pg-csv-count">(30)</span>
+            </div>
+          </div>
+          <div class="pg-csv-box">
+            <div class="pg-csv-box-img pg-box1">
+              <div class="pg-box2">
+                <div class="pg-box3">
+                  <a href="/nashi-raboti/category/2-ustrojstvo-sten">
+                    <img
+                      src="{% static 'main/img/gallery/ust_sten.jpg' %}"
+                      alt="Устройство стен"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="pg-csv-name">
+              <a href="/nashi-raboti/category/2-ustrojstvo-sten"
+                >Устройств...</a
+              >
+              <span class="pg-csv-count">(30)</span>
+            </div>
+          </div>
+          <div class="pg-csv-box">
+            <div class="pg-csv-box-img pg-box1">
+              <div class="pg-box2">
+                <div class="pg-box3">
+                  <a href="/nashi-raboti/category/3-ustrojstvo-potolkov">
+                    <img
+                      src="{% static 'main/img/gallery/ust_potolkov.jpg' %}"
+                      alt="Устройство потолков"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="pg-csv-name">
+              <a href="/nashi-raboti/category/3-ustrojstvo-potolkov"
+                >Устройств...</a
+              >
+              <span class="pg-csv-count">(30)</span>
+            </div>
+          </div>
+          <div class="pg-csv-box">
+            <div class="pg-csv-box-img pg-box1">
+              <div class="pg-box2">
+                <div class="pg-box3">
+                  <a href="/nashi-raboti/category/4-ustrojstvo-polov">
+                    <img
+                      src="{% static 'main/img/gallery/ustroistvo_polov.jpg' %}"
+                      alt="Устройство полов"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="pg-csv-name">
+              <a href="/nashi-raboti/category/4-ustrojstvo-polov"
+                >Устройств...</a
+              >
+              <span class="pg-csv-count">(30)</span>
+            </div>
+          </div>
+          <div class="pg-csv-box">
+            <div class="pg-csv-box-img pg-box1">
+              <div class="pg-box2">
+                <div class="pg-box3">
+                  <a href="/nashi-raboti/category/5-ustanovka-okon-i-dverej">
+                    <img
+                      src="{% static 'main/img/gallery/ust_dverei.jpg' %}"
+                      alt="Установка окон и дверей"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="pg-csv-name">
+              <a href="/nashi-raboti/category/5-ustanovka-okon-i-dverej"
+                >Установка...</a
+              >
+              <span class="pg-csv-count">(30)</span>
+            </div>
+          </div>
+          <div class="pg-csv-box">
+            <div class="pg-csv-box-img pg-box1">
+              <div class="pg-box2">
+                <div class="pg-box3">
+                  <a href="/nashi-raboti/category/6-santekhnicheskie-raboty">
+                    <img
+                      src="{% static 'main/img/gallery/sntechniceskie.jpg' %}"
+                      alt="Сантехнические работы"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="pg-csv-name">
+              <a href="/nashi-raboti/category/6-santekhnicheskie-raboty"
+                >Сантехнич...</a
+              >
+              <span class="pg-csv-count">(30)</span>
+            </div>
+          </div>
+          <div class="pg-csv-box">
+            <div class="pg-csv-box-img pg-box1">
+              <div class="pg-box2">
+                <div class="pg-box3">
+                  <a href="/nashi-raboti/category/7-plitochnye-raboty">
+                    <img
+                      src="{% static 'main/img/gallery/plitochnye.jpeg' %}"
+                      alt="Плиточные работы"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="pg-csv-name">
+              <a href="/nashi-raboti/category/7-plitochnye-raboty"
+                >Плиточные...</a
+              >
+              <span class="pg-csv-count">(30)</span>
+            </div>
+          </div>
+          <div class="pg-csv-box">
+            <div class="pg-csv-box-img pg-box1">
+              <div class="pg-box2">
+                <div class="pg-box3">
+                  <a
+                    href="/nashi-raboti/category/10-malyarno-shtukaturnye-raboty"
+                  >
+                    <img
+                      src="{% static 'main/img/gallery/malyarno-shutkaturnye.jpg' %}"
+                      alt="Малярно-штукатурные работы"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="pg-csv-name">
+              <a href="/nashi-raboti/category/10-malyarno-shtukaturnye-raboty"
+                >Малярно-ш...</a
+              >
+              <span class="pg-csv-count">(30)</span>
+            </div>
+          </div>
+          <div class="pg-csv-box">
+            <div class="pg-csv-box-img pg-box1">
+              <div class="pg-box2">
+                <div class="pg-box3">
+                  <a href="/nashi-raboti/category/11-demontazhnye-raboty">
+                    <img
+                      src="{% static 'main/img/gallery/demontagnye_raboty.jpg' %}"
+                      alt="Демонтажные работы"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="pg-csv-name">
+              <a href="/nashi-raboti/category/11-demontazhnye-raboty"
+                >Демонтажн...</a
+              >
+              <span class="pg-csv-count">(30)</span>
+            </div>
+          </div>
+        </div>
+        <div class="ph-cb"></div>
+        <div class="ph-cb pg-csv-paginaton">&nbsp;</div>
+      </div>
+    </div>
+  </article>
+</div>
+{% endblock %}
+
+{% block nostyle %}
+{% include 'main/posts.html' %}
+{% endblock %}
+
+{% block map %}
+{% include 'main/map.html' %}
+{% endblock %}
